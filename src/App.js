@@ -61,7 +61,9 @@ function App() {
         rows={5}
         cols={50}
       />
-      <button onClick={handleSubmit}>Submit</button>
+      <div>
+        <button onClick={handleSubmit}>Submit</button>
+      </div>
       {error && <div className="error">{error}</div>}
 
       {response && (
